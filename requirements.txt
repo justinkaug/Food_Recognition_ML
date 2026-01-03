@@ -1,0 +1,54 @@
+# Requirements for Food Recognition ML Project
+
+# Core ML/DL frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+pillow>=9.5.0
+
+# Data processing
+pandas>=2.0.0
+scikit-learn>=1.3.0
+opencv-python>=4.8.0
+albumentations>=1.3.0
+
+# Deep learning utilities
+timm>=0.9.0  # PyTorch Image Models
+efficientnet-pytorch>=0.7.1
+
+# Object detection
+ultralytics>=8.0.0  # YOLOv8
+
+# Model export and optimization
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Configuration and logging
+pyyaml>=6.0
+tensorboard>=2.13.0
+
+# Progress bars and utilities
+tqdm>=4.65.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# HTTP requests (for dataset download)
+requests>=2.31.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Jupyter notebooks
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.1.0
+
+# Optional: Weights & Biases for experiment tracking
+# wandb>=0.15.0
+
+# Optional: TensorFlow for TFLite export
+# tensorflow>=2.13.0
+# onnx-tf>=1.10.0
