@@ -37,10 +37,7 @@ env/
 .vscode/
 
 # Data
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+data
 
 # Models
 models/*
